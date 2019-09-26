@@ -1,6 +1,6 @@
 ﻿# [Eleventy Html5UP Fractal](https://eleventy-html5up-fractal.appseed.us)
 
-Static Site prototyped on top of Eleventy SSG, Deventy boilerplate and Fractal Design  
+Static Site prototyped on top of [Eleventy](https://www.11ty.io/) SSG and Fractal Design  
 
 
 - Design: [HTML5up Fractal](https://html5up.net/fractal)
@@ -21,7 +21,7 @@ Static Site prototyped on top of Eleventy SSG, Deventy boilerplate and Fractal D
 
 ## App Links
 
-- [Flask Directive](https://flask-html5up-directive.appseed.us/) - Live DEMO
+- [Eleventy Html5UP Fractal](https://eleventy-html5up-fractal.appseed.us) - Live DEMO
 
 <br />
 
@@ -40,9 +40,10 @@ $ # app is running on http://localhost:4000
 
 <br />
 
-## License
+## License & Credits
 
-[CCY 3.0](https://html5up.net/license) , inherited from Html5Up
+- [CCY 3.0](https://html5up.net/license) - inherited from Html5Up
+- [Deventy](https://github.com/ianrose/deventy) - the initial starter 
 
 <br />
 

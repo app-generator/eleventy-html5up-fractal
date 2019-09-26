@@ -9,7 +9,7 @@
     "eleventy:default": "npx eleventy",
     "eleventy:watch": "npx eleventy --watch",
     "styles:prod": "node-sass src/assets/sass/ --output dist/assets/css && postcss ./dist/assets/css/*.css --replace",
-    "styles:dev":  "node-sass src/assets/sass/ --output dist/assets/css --source-map true --source-map-contents true && postcss ./dist/assets/css/*.css --replace",
+    "styles:dev": "node-sass src/assets/sass/ --output dist/assets/css --source-map true --source-map-contents true && postcss ./dist/assets/css/*.css --replace",
     "cp:img": "cpx src/images/*.* ./dist/images/",
     "cp:js": "cpx src/assets/js/*.* ./dist/assets/js/",
     "cp:fonts": "cpx src/assets/webfonts/*.*  ./dist/assets/webfonts/",
@@ -47,6 +47,7 @@
   "dependencies": {
     "acorn": "^6.1.1",
     "cpx": "^1.5.0",
+    "ftp-deploy": "^2.3.3",
     "ncp": "^2.0.0",
     "node-sass": "^4.12.0"
   }
