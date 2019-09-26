@@ -1,0 +1,26 @@
+{
+    "copy"           : "AppSeed", 
+    "email"          : "support@appseed.us",
+    "design"         : "Fractal by Html5 UP",
+
+    "app_title"      : "Eleventy Fractal",
+
+    "seo_title"      : "Eleventy Fractal - Built with Automation Tools | AppSeed App Generator",
+    "seo_desc"       : "Static Site prototyped in Eleventy SSG on top of Fractal Html5 Up design.",
+
+    "product"        : "https://github.com/app-generator/eleventy-html5up-fractal", 
+    "github"         : "https://github.com/app-generator/eleventy-html5up-fractal",
+    "github_group"   : "https://github.com/app-generator/static-site",
+
+    "docs"           : "https://docs.appseed.us/apps/static-site/eleventy-html5up-fractal/",
+    "appseed"        : "https://appseed.us",      
+    "generator"      : "https://appseed.us/app-generator",
+    "blog"           : "https://blog.appseed.us/",
+    "facebook"       : "https://facebook.com/webappseed",
+    "twitter"        : "https://twitter.com/webappseed",
+    "instagram"      : "https://instagram.com/webappseed",
+    "support"        : "https://appseed.us/support",
+    "discord"        : "https://discord.gg/fZC6hup",
+
+    "LAST_KEY" : "NA"
+}

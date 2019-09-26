@@ -1,8 +1,9 @@
-# Deventy
+﻿# [Eleventy Html5UP Fractal](https://eleventy-html5up-fractal.appseed.us)
 
-A minimal 11ty starting point for building static websites with modern tools. Uses the CLI of each tool. Allowing a much easier upgrade path for each individual development tool.
+Static Site prototyped on top of Eleventy SSG, Deventy boilerplate and Fractal Design  
 
-Features:
+
+- Design: [HTML5up Fractal](https://html5up.net/fractal)
 - [11ty](https://www.11ty.io/)
 - [Sass/SCSS](https://github.com/sass/node-sass)
 - [Webpack](https://webpack.js.org/)
@@ -12,35 +13,38 @@ Features:
 - [CSSnano](https://cssnano.co/)
 - [Autoprefixer](https://github.com/postcss/autoprefixer)
 
-## Getting Started
+<br />
 
-Install all dependencies using npm:
+![Eleventy Html5UP Fractal - Gif animated intro.](https://github.com/app-generator/static/blob/master/products/eleventy-html5up-fractal-intro.gif?raw=true)
 
-```
-$ nvm use
-$ npm install
-```
+<br />
 
-### To Develop
+## App Links
 
-```
-$ npm run dev
-```
- And in debug mode:
- 
-```
-$ npm run dev:debug
-```
+- [Flask Directive](https://flask-html5up-directive.appseed.us/) - Live DEMO
 
-You can view the website at the given access URL:
-```
-$ light-server is listening at http://localhost:4000
-```
+<br />
 
-The local url is configured in `.lightserverrc`
+## How to use it
 
-### To Build
+- Build from sources:
 
 ```
-npm run build
+$ git clone https://github.com/app-generator/eleventy-html5up-fractal.git
+$ cd eleventy-html5up-fractal
+$ yarn # install modules 
+$ yarn dev # start in development mode
+
+$ # app is running on http://localhost:4000
 ```
+
+<br />
+
+## License
+
+[CCY 3.0](https://html5up.net/license) , inherited from Html5Up
+
+<br />
+
+---
+[Eleventy Html5UP Fractal](https://eleventy-html5up-fractal.appseed.us) - provided by **AppSeed**

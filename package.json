@@ -1,32 +1,35 @@
 {
-  "name": "deventy",
-  "version": "1.2.0",
-  "description": "A minimal 11ty starter with modern tools",
+  "name": "eleventy-html5up-fractal",
+  "version": "0.0.1",
+  "description": "A minimal 11ty starter, with an Html5 Up integrated",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf dist",
     "eleventy:default": "npx eleventy",
     "eleventy:watch": "npx eleventy --watch",
-    "styles:prod": "node-sass src/styles/ --output dist/styles/ && postcss ./dist/styles/*.css --replace",
-    "styles:dev": "node-sass src/styles/ --output dist/styles/ --source-map true --source-map-contents true && postcss ./dist/styles/*.css --replace",
+    "styles:prod": "node-sass src/assets/sass/ --output dist/assets/css && postcss ./dist/assets/css/*.css --replace",
+    "styles:dev":  "node-sass src/assets/sass/ --output dist/assets/css --source-map true --source-map-contents true && postcss ./dist/assets/css/*.css --replace",
+    "cp:img": "cpx src/images/*.* ./dist/images/",
+    "cp:js": "cpx src/assets/js/*.* ./dist/assets/js/",
+    "cp:fonts": "cpx src/assets/webfonts/*.*  ./dist/assets/webfonts/",
     "scripts:prod": "webpack --mode=production",
     "scripts:dev": "webpack --mode=development",
     "serve": "light-server -c .lightserverrc",
-    "dev": "npm-run-all clean styles:dev scripts:dev eleventy:default --parallel eleventy:watch serve --print-label",
+    "dev": "npm-run-all clean cp:js cp:fonts cp:img styles:dev scripts:dev eleventy:default --parallel eleventy:watch serve --print-label",
     "dev:debug": "DEBUG=* npm run dev",
-    "build": "run-s clean styles:prod scripts:prod eleventy:default --print-label"
+    "build": "run-s clean cp:js cp:fonts cp:img styles:prod scripts:prod eleventy:default --print-label"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://ianrose@github.com/ianrose/deventy.git"
+    "url": "git+https://github.com/app-generator/eleventy-html5up-fractal.git"
   },
   "author": "",
-  "license": "MIT",
+  "license": "CCA 3.0",
   "bugs": {
-    "url": "https://github.com/ianrose/deventy/issues"
+    "url": "https://github.com/app-generator/eleventy-html5up-fractal/issues"
   },
-  "homepage": "https://github.com/ianrose/deventy#readme",
+  "homepage": "https://eleventy-html5up-fractal.appseed.us",
   "devDependencies": {
     "@11ty/eleventy": "^0.9.0",
     "@babel/core": "^7.5.5",
@@ -43,6 +46,8 @@
   },
   "dependencies": {
     "acorn": "^6.1.1",
+    "cpx": "^1.5.0",
+    "ncp": "^2.0.0",
     "node-sass": "^4.12.0"
   }
 }

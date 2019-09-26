@@ -1,5 +1,104 @@
 ---
-layout: layouts/base.njk
-title: Title Strings
+layout : layouts/base.njk
 ---
-<h1>This is global data: {{siteData.name}}</h1>
+
+		<!-- Header -->
+        <header id="header">
+            <div class="content">
+                <h1>
+                    <a href="{{ data.github }}"> {{ data.app_title }} </a> 
+                </h1>
+                <p>
+                    Static Site prototyped on top of <a href="https://www.11ty.io/">Eleventy</a> SSG with Fractal Design.
+                </p>
+                <ul class="actions">
+                    <li><a href="{{ data.github }}"       class="button primary icon solid fa-download">Source Code</a></li>
+                    <li><a href="{{ data.github_group }}" class="button icon solid fa-rocket">More Static Sites</a></li>
+                </ul>
+            </div>
+            <div class="image phone"><div class="inner"><img src="images/screen.jpg" alt="" /></div></div>
+        </header>
+
+		<!-- One -->
+        <section id="one" class="wrapper style2 special">
+            <header class="major">
+                <h2>
+                    Built with <a href="https://www.11ty.io/">Eleventy</a>
+                    <br />
+                    A JavaScript alternative to Jekyll
+                </h2>
+            </header>
+            <ul class="icons major">
+                <li><span class="icon solid fa-camera-retro"><span class="label">Shoot</span></span></li>
+                <li><span class="icon solid fa-sync"><span class="label">Process</span></span></li>
+                <li><span class="icon solid fa-cloud"><span class="label">Upload</span></span></li>
+            </ul>
+        </section>
+
+		<!-- Two -->
+        <section id="two" class="wrapper">
+            <div class="inner alt">
+                <section class="spotlight">
+                    <div class="image"><img src="images/pic01.jpg" alt="" /></div>
+                    <div class="content">
+                        <h3>
+                        <strong>Open-Source</strong>
+                        </h3>
+                        <p>
+                        In love with Static Sites? Just grab this boilerplate and build something great. 
+                        Also, please spare some time to read the <a href="https://html5up.net/license">license</a> (inherited from the design agency).
+                    </div>
+                </section>
+                <section class="spotlight">
+                    <div class="image"><img src="images/pic02.jpg" alt="" /></div>
+                    <div class="content">
+                        <h3>
+                            <a href="https://www.11ty.io/docs/templates/">Multiple template engines</a>
+                        </h3>
+                        <p>
+                        Eleventy works with multiple template languages. You can pick one or use them all together in a single project: HTML, Markdown, Liquid, PUG, Mustache.
+                        </p>
+                    </div>
+                </section>
+                <section class="spotlight">
+                    <div class="image"><img src="images/pic03.jpg" alt="" /></div>
+                    <div class="content">
+                        <h3>
+                        Built with Automation tools
+                        </h3>
+                        <p>
+                          This boilerplate is prototyped by the AppSeed platform using tools and boilerplate code. More information in this article:
+                          <strong>
+                          <a href="https://dev.to/sm0ke/100-open-source-apps-built-with-automation-tools-3jmj"> I’ve built 100+ open-source apps with automation tools</a>
+                          </strong>
+                        </p>
+                    </div>
+                </section>
+                <section class="special">
+                    <ul class="icons labeled">
+                        <li><span class="icon solid fa-rocket"><span class="label">Blazing Fast</span></span></li>
+                        <li><span class="icon solid fa-sync"><span class="label">Modern Stack</span></span></li>
+                        <li><span class="icon solid fa-cloud"><span class="label">Production Ready</span></span></li>
+                        <li><span class="icon solid fa-code"><span class="label">Open-Source</span></span></li>
+                        <li><span class="icon solid fa-desktop"><span class="label">UI Ready</span></span></li>
+                    </ul>
+                </section>
+            </div>
+        </section>
+
+		<!-- Three -->
+        <section id="three" class="wrapper style2 special">
+            <header class="major">
+                <h2>
+                    Open-Source Static Site
+                </h2>
+                <p>
+                    Static Site prototyped on top of <strong>Eleventy</strong> SSG with Fractal Design.
+                </p>
+            </header>
+            <ul class="actions special">
+                <li><a href="{{ data.github }}"       class="button primary icon solid fa-download">Source Code</a></li>
+                <li><a href="{{ data.github_group }}" class="button icon solid fa-rocket">More Static Sites</a></li>
+            </ul>
+        </section>
+

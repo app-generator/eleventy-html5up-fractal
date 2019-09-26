@@ -8,7 +8,8 @@
     "src/scripts/**/*.js # npm run scripts:dev",
     "src/styles/**/*.scss # npm run styles:dev # reloadcss",
     "dist/**/*.html",
-    "src/images/"
+    "src/**/*.njk # npx eleventy",
+    "src/images/*.* # yarn cp:img"
  ],
  "http2": false,
  "open": false
