@@ -49,4 +49,4 @@ $ # app is running on http://localhost:4000
 <br />
 
 ---
-[Eleventy Html5UP Fractal](https://eleventy-html5up-fractal.appseed.us) - provided by **AppSeed**
+[Eleventy Html5UP Fractal](https://appseed.us/static-site/eleventy-html5up-fractal) - provided by **AppSeed**
