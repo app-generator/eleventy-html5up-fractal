@@ -21,7 +21,7 @@ Static Site prototyped on top of [Eleventy](https://www.11ty.io/) SSG and Fracta
 ## App Links
 
 - [Eleventy Html5UP Fractal](https://eleventy-html5up-fractal.appseed.us) - Live DEMO
-- [Eleventy Html5UP Fractal](https://eleventy-html5up-fractal.appseed.us) - Product Info
+- [Eleventy Html5UP Fractal](https://appseed.us/static-site/eleventy-html5up-fractal) - Product Info
 
 
 <br />
