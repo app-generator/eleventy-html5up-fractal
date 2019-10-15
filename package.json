@@ -4,6 +4,8 @@
   "description": "A minimal 11ty starter, with an Html5 Up integrated",
   "main": "index.js",
   "scripts": {
+    "start": "yarn dev",
+    "deploy": "yarn build && node deploy",
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf dist",
     "eleventy:default": "npx eleventy",
