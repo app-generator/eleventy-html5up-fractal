@@ -14,7 +14,18 @@ Static Site prototyped on top of [Eleventy](https://www.11ty.io/) SSG and Fracta
 
 <br />
 
-![Eleventy Html5UP Fractal - Gif animated intro.](https://github.com/app-generator/static/blob/master/products/eleventy-html5up-fractal-intro.gif?raw=true)
+## Want more? Go PRO!
+
+PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Support** (via [Discord](https://discord.gg/fZC6hup)) 
+
+| [Eleventy Material Kit PRO](https://appseed.us/static-site/eleventy-material-kit-pro) | [Eleventy Paper Kit PRO](https://appseed.us/static-site/eleventy-paper-kit-pro) | [Eleventy Now UI Kit PRO](https://appseed.us/static-site/eleventy-now-ui-kit-pro) |
+| --- | --- | --- |
+| [![Eleventy Material Kit PRO](https://raw.githubusercontent.com/app-generator/static/master/products/eleventy-material-kit-pro-screen.png)](https://appseed.us/static-site/eleventy-material-kit-pro)  | [![Eleventy Paper Kit PRO](https://raw.githubusercontent.com/app-generator/static/master/products/eleventy-paper-kit-pro-screen.png)](https://appseed.us/static-site/eleventy-paper-kit-pro) | [![Eleventy Now UI Kit PRO](https://raw.githubusercontent.com/app-generator/static/master/products/eleventy-now-ui-kit-pro-screen.png)](https://appseed.us/static-site/eleventy-now-ui-kit-pro)
+
+<br />
+<br />
+
+![Eleventy Html5UP Fractal - Open-Source Static Site Starter.](https://raw.githubusercontent.com/app-generator/static/master/products/eleventy-html5up-fractal-screen.png)
 
 <br />
 
@@ -30,24 +41,6 @@ $ yarn dev # start in development mode
 
 $ # app is running on http://localhost:4000
 ```
-
-<br />
-
-## Want more? Go PRO!
-
-<br />
-
-| [Eleventy Material Kit PRO](https://appseed.us/static-site/eleventy-material-kit-pro) | [Eleventy Paper Kit PRO](https://appseed.us/static-site/eleventy-paper-kit-pro) | [Eleventy Now UI Kit PRO](https://appseed.us/static-site/eleventy-now-ui-kit-pro) |
-| --- | --- | --- |
-| [![Eleventy Material Kit PRO](https://raw.githubusercontent.com/app-generator/static/master/products/eleventy-material-kit-pro-intro.gif)](https://appseed.us/static-site/eleventy-material-kit-pro)  | [![Eleventy Paper Kit PRO](https://raw.githubusercontent.com/app-generator/static/master/products/eleventy-paper-kit-pro-intro.gif)](https://appseed.us/static-site/eleventy-paper-kit-pro) | [![Eleventy Now UI Kit PRO](https://raw.githubusercontent.com/app-generator/static/master/products/eleventy-now-ui-kit-pro-intro.gif)](https://appseed.us/static-site/eleventy-now-ui-kit-pro)
-
-<br />
-
-## [Static Site Eleventy Fractal](https://appseed.us/static-site/eleventy-html5up-fractal) Links
-
-- [Eleventy Html5UP Fractal](https://eleventy-html5up-fractal.appseed.us) - Live DEMO
-- [Eleventy Html5UP Fractal](https://appseed.us/static-site/eleventy-html5up-fractal) - Product Info
-
 
 <br />
 
