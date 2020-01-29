@@ -1,6 +1,8 @@
 # [Static Site Eleventy Fractal](https://appseed.us/static-site/eleventy-html5up-fractal)
 
-Static Site prototyped on top of [Eleventy](https://www.11ty.io/) SSG and Fractal Design - [Live DEMO](https://eleventy-html5up-fractal.appseed.us)
+**Open-Source Static Site** coded in **[Eleventy](https://www.11ty.io/)** - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+
+### Static Site Features:
 
 - Design: [HTML5up Fractal](https://html5up.net/fractal)
 - [11ty](https://www.11ty.io/)
@@ -31,15 +33,20 @@ PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Suppo
 
 ## How to use it
 
-- Build from sources:
-
-```
+```bash
+$ # clone the sources
 $ git clone https://github.com/app-generator/eleventy-html5up-fractal.git
 $ cd eleventy-html5up-fractal
-$ yarn # install modules 
-$ yarn dev # start in development mode
-
+$
+$ # install modules
+$ yarn
+$
+$ # start the project in development mode
+$ yarn dev
 $ # app is running on http://localhost:4000
+$
+$ # build the project for production
+$ yarn build
 ```
 
 <br />
@@ -52,4 +59,4 @@ $ # app is running on http://localhost:4000
 <br />
 
 ---
-[Static Site Eleventy Fractal](https://appseed.us/static-site/eleventy-html5up-fractal) - provided by **AppSeed**
+[Static Site Eleventy Fractal](https://appseed.us/static-site/eleventy-html5up-fractal) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
