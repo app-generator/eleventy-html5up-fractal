@@ -5,8 +5,8 @@
  "delay": 100,
  "quiet": true,
  "watchexps": [
-    "src/scripts/**/*.js # npm run scripts:dev",
-    "src/styles/**/*.scss # npm run styles:dev # reloadcss",
+    "src/assets/**/*.js # npm run scripts:dev",
+    "src/assets/**/*.scss # npm run styles:dev # reloadcss",
     "dist/**/*.html",
     "src/**/*.njk # npx eleventy",
     "src/images/*.* # yarn cp:img"
